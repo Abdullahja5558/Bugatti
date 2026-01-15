@@ -1,4 +1,13 @@
+/* globals.css */
+/* globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/* ... all other CSS rules follow below ... */
+
+/* ... all your other styles follow AFTER the import ... */
 @import "tailwindcss";
+
+
 
 :root {
   --background: #ffffff;
@@ -24,3 +33,21 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* Disable default cursor everywhere */
+* {
+  cursor: none !important;
+}
+
+/* Force hide on interactive elements */
+a, button, input, [role="button"], .premium-hover {
+  cursor: none !important;
+}
+
+/* Background refinement for black theme */
+body {
+  background-color: #000;
+  -webkit-font-smoothing: antialiased;
+}
+
