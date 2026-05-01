@@ -134,7 +134,6 @@ const SpecHUD = ({ category, value, detail, opacity, y, align }: any) => {
         </span>
       </div>
 
-      {/* Technical Detail */}
       <span className="mt-1 text-[8px] tracking-[0.2em] text-white/20 uppercase font-medium">
         {detail}
       </span>
