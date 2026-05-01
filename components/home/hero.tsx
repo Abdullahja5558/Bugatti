@@ -27,7 +27,6 @@ const Hero = () => {
         
         <div className="sticky top-0 h-screen w-full overflow-hidden">
           
-          {/* 1. AMBIENT DEPTH */}
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.04)_0%,transparent_75%)]" />
             <div className="absolute inset-0 opacity-[0.03] bg-[url('https://grainy-gradients.vercel.app/noise.svg')] pointer-events-none" />
