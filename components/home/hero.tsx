@@ -17,7 +17,6 @@ const Hero = () => {
   const carScale = useTransform(scrollYProgress, [0, 1], [0.82, 1.12]);
   const carOpacity = useTransform(scrollYProgress, [0, 0.1, 0.9, 1], [0, 1, 1, 0]);
 
-  // SPEC VISIBILITY: Phase shift to avoid title overlap
   const specOpacity = useTransform(scrollYProgress, [0.45, 0.55, 0.8, 0.9], [0, 1, 1, 0]);
   const specSlide = useTransform(scrollYProgress, [0.45, 0.55], [40, 0]);
 
