@@ -96,7 +96,6 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* 5. CINEMATIC SWEEP */}
           <motion.div 
             style={{ x: useTransform(scrollYProgress, [0, 1], ["-160%", "160%"]) }}
             className="absolute inset-0 z-40 pointer-events-none opacity-40"
