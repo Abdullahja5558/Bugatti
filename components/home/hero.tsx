@@ -32,7 +32,6 @@ const Hero = () => {
             <div className="absolute inset-0 opacity-[0.03] bg-[url('https://grainy-gradients.vercel.app/noise.svg')] pointer-events-none" />
           </div>
 
-          {/* 2. MAIN TITLE (Fades before specs) */}
           <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
             <motion.h1 
               style={{ 
