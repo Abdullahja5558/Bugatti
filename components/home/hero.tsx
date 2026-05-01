@@ -127,7 +127,6 @@ const SpecHUD = ({ category, value, detail, opacity, y, align }: any) => {
         className={`h-px w-16 bg-white/20 origin-${isRight ? "right" : "left"}`}
       />
 
-      {/* Primary Value */}
       <div className="mt-3 overflow-hidden">
         <span className="block text-lg md:text-3xl tracking-[0.15em] text-white font-extralight uppercase">
           {value}
