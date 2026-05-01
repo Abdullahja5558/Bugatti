@@ -10,7 +10,6 @@ const CustomCursor = () => {
   const mouseX = useMotionValue(-100);
   const mouseY = useMotionValue(-100);
 
-  // Precision Physics: Fast response with zero jitter
   const springConfig = { stiffness: 250, damping: 30, mass: 0.5 };
   const smoothX = useSpring(mouseX, springConfig);
   const smoothY = useSpring(mouseY, springConfig);
