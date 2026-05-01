@@ -117,7 +117,6 @@ const TitaniumSpec = ({ index, label, value, align = "left" }: any) => {
         <h3 className="text-2xl md:text-5xl tracking-tighter text-white font-thin uppercase leading-none">
           {value}
         </h3>
-        {/* Shimmer Light Stroke */}
         <motion.div 
           animate={{ x: ["-100%", "200%"] }}
           transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
