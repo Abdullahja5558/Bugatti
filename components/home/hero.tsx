@@ -57,7 +57,6 @@ const Hero = () => {
 
           <div className="absolute inset-0 z-30 pointer-events-none px-10 md:px-24 pt-32 pb-24 flex flex-col justify-between">
             
-            {/* Top Specs: Nichy shift kar diya (pt-32 handles this) */}
             <div className="flex justify-between items-start">
               <SpecHUD 
                 category="Power-Unit" 
