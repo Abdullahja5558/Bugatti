@@ -117,7 +117,6 @@ const SpecHUD = ({ category, value, detail, opacity, y, align }: any) => {
       style={{ opacity, y }}
       className={`flex flex-col ${isRight ? "items-end text-right" : "items-start text-left"}`}
     >
-      {/* Category Label */}
       <span className="text-[10px] tracking-[0.5em] text-white/30 uppercase font-light mb-1">
         {category}
       </span>
