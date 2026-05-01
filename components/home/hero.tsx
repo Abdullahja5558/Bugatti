@@ -55,7 +55,6 @@ const Hero = () => {
             />
           </motion.div>
 
-          {/* pt-32 and pb-24 used to move specs slightly down/up from edges */}
           <div className="absolute inset-0 z-30 pointer-events-none px-10 md:px-24 pt-32 pb-24 flex flex-col justify-between">
             
             {/* Top Specs: Nichy shift kar diya (pt-32 handles this) */}
