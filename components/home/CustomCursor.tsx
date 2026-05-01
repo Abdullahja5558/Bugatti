@@ -39,7 +39,7 @@ const CustomCursor = () => {
 
   return (
     <div className="fixed inset-0 pointer-events-none z-[99999] overflow-hidden">
-      {/* 1. CORE: The Needle Point */}
+     
       <motion.div
         style={{ left: smoothX, top: smoothY, x: "-50%", y: "-50%" }}
         className="absolute flex items-center justify-center"
