@@ -13,7 +13,6 @@ const Hero = () => {
     offset: ["start start", "end end"],
   });
 
-  // PHYSICS: Ultra-precise car movement
   const carY = useTransform(scrollYProgress, [0, 1], ["22%", "5%"]); 
   const carScale = useTransform(scrollYProgress, [0, 1], [0.82, 1.12]);
   const carOpacity = useTransform(scrollYProgress, [0, 0.1, 0.9, 1], [0, 1, 1, 0]);
