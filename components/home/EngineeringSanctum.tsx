@@ -125,7 +125,6 @@ const TitaniumSpec = ({ index, label, value, align = "left" }: any) => {
         />
       </div>
 
-      {/* Accent Hairline */}
       <div className={`mt-6 h-[0.5px] w-16 bg-linear-to-r ${isRight ? "from-transparent to-white/10" : "from-white/10 to-transparent"}`} />
     </div>
   );
