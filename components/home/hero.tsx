@@ -44,7 +44,6 @@ const Hero = () => {
             </motion.h1>
           </div>
 
-          {/* 3. THE CAR (Z-20) */}
           <motion.div 
             style={{ y: carY, scale: carScale, opacity: carOpacity }}
             className="absolute inset-0 flex items-center justify-center z-20 pointer-events-none"
