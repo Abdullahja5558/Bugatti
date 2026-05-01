@@ -76,7 +76,6 @@ const Hero = () => {
               />
             </div>
 
-            {/* Bottom Specs */}
             <div className="flex justify-between items-end">
               <SpecHUD 
                 category="Dynamics" 
