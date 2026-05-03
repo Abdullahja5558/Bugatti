@@ -42,7 +42,6 @@ const MotivationNote = () => {
             className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.08)_0%,transparent_60%)] blur-[100px]" 
           />
           
-          {/* Static Film Grain */}
           <div className="absolute inset-0 opacity-[0.04] bg-[url('https://grainy-gradients.vercel.app/noise.svg')] pointer-events-none" />
         </div>
 
