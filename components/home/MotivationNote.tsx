@@ -44,8 +44,6 @@ const MotivationNote = () => {
           
           <div className="absolute inset-0 opacity-[0.04] bg-[url('https://grainy-gradients.vercel.app/noise.svg')] pointer-events-none" />
         </div>
-
-        {/* THE MANUSCRIPT: High-Contrast Vertical Narrative */}
         <div className="relative z-10 flex flex-col items-center text-center px-6 w-full max-w-300">
           {lines.map((line, index) => (
             <TextLine 
