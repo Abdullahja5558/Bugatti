@@ -63,8 +63,6 @@ const MotivationNote = () => {
           }}
           className="absolute bottom-20 h-[0.5px] bg-linear-to-r from-transparent via-white to-transparent" 
         />
-
-        {/* STATUS WHISPER */}
         <div className="absolute bottom-10 w-full flex justify-center opacity-10">
            <span className="text-[6px] tracking-[2em] text-white uppercase ml-[2em]">Molsheim // Archive</span>
         </div>
