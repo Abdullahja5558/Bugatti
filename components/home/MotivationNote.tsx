@@ -30,7 +30,7 @@ const MotivationNote = () => {
 
   return (
     <div ref={containerRef} className="relative h-[600vh] bg-black overflow-clip">
-      {/* 100VH Sticky Stage */}
+    
       <div className="sticky top-0 h-screen w-full flex items-center justify-center overflow-hidden">
         
         {/* ATMOSPHERE: The Velvet Void */}
