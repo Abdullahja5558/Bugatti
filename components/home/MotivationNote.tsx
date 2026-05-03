@@ -74,8 +74,6 @@ const MotivationNote = () => {
 const TextLine = ({ text, index, total, progress }: any) => {
   const start = index / total;
   const end = (index + 1) / total;
-
-  // Cinematic Motion Logic
   const opacity = useTransform(progress, [start, start + 0.1, end - 0.1, end], [0, 1, 1, 0]);
   const y = useTransform(progress, [start, end], [60, -60]); // Slow vertical glide
   const scale = useTransform(progress, [start, start + 0.1, end - 0.1, end], [0.92, 1, 1, 0.92]);
