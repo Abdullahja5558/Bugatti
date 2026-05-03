@@ -34,7 +34,6 @@ const MotivationNote = () => {
       <div className="sticky top-0 h-screen w-full flex items-center justify-center overflow-hidden">
         
         <div className="absolute inset-0 z-0">
-          {/* Dynamic Light Pillar */}
           <motion.div 
             style={{ 
               opacity: useTransform(smoothProgress, [0, 0.5, 1], [0.05, 0.15, 0.05]),
