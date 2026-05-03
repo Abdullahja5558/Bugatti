@@ -33,7 +33,6 @@ const MotivationNote = () => {
     
       <div className="sticky top-0 h-screen w-full flex items-center justify-center overflow-hidden">
         
-        {/* ATMOSPHERE: The Velvet Void */}
         <div className="absolute inset-0 z-0">
           {/* Dynamic Light Pillar */}
           <motion.div 
