@@ -121,7 +121,6 @@ const SpecHUD = ({ category, value, detail, opacity, y, align }: any) => {
         {category}
       </span>
       
-      {/* Precision Hairline */}
       <motion.div 
         style={{ scaleX: opacity }}
         className={`h-px w-16 bg-white/20 origin-${isRight ? "right" : "left"}`}
