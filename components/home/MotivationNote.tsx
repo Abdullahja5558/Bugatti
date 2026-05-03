@@ -16,8 +16,6 @@ const MotivationNote = () => {
     damping: 35,
     mass: 2,
   });
-
-  // Deep, Philosophical Narrative
   const lines = [
     "Greatness is silent.",
     "It is built in shadows,",
