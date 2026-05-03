@@ -56,7 +56,6 @@ const MotivationNote = () => {
           ))}
         </div>
 
-        {/* PREMIUM ACCENT: The Horizon Line */}
         <motion.div 
           style={{ 
             opacity: useTransform(smoothProgress, [0.05, 0.5, 0.95], [0, 0.1, 0]),
