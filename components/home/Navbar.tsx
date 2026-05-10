@@ -132,7 +132,6 @@ const Navbar = () => {
   );
 };
 
-// NavLink Component with Href support
 const NavLink = ({ label, href }: { label: string; href: string }) => {
   return (
     <motion.a 
