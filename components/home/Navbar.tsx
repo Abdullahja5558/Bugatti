@@ -104,8 +104,6 @@ const Navbar = () => {
             {isOpen ? <X size={24} strokeWidth={1} /> : <Menu size={24} strokeWidth={1} />}
           </button>
         </div>
-
-        {/* MOBILE OVERLAY */}
         <AnimatePresence>
           {isOpen && (
             <motion.div
