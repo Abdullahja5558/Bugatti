@@ -51,7 +51,6 @@ const Navbar = () => {
           }}
           className="absolute inset-0 -z-10"
         >
-          {/* Glass background */}
           <div className="absolute inset-0 bg-[#050505]/60 rounded-[inherit]" />
           
           {/* Top Edge Shine (Automotive Luxury Look) */}
