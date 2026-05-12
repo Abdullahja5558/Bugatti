@@ -31,8 +31,6 @@ const SignatureReveal = () => {
           className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1)_0%,transparent_70%)]" 
         />
       </div>
-
-      {/* THE SIGNATURE */}
       <div className="relative z-10 flex flex-col items-center select-none">
         <motion.h2 
           animate={{
