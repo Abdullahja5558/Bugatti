@@ -14,7 +14,6 @@ const SignatureReveal = () => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {/* CONTINUOUS ATMOSPHERIC LIGHT */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         {/* Subtle Grain Texture */}
         <div className="absolute inset-0 opacity-[0.03] bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
