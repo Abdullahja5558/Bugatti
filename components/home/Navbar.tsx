@@ -13,7 +13,6 @@ const Navbar = () => {
   const navTop = useSpring(useTransform(scrollY, [0, 100], [0, 20]), springConfig);
   const borderRadius = useSpring(useTransform(scrollY, [0, 100], [0, 100]), springConfig);
 
-  // Existing animations
   const navHeight = useSpring(useTransform(scrollY, [0, 100], [120, 80]), springConfig);
   const logoScale = useSpring(useTransform(scrollY, [0, 100], [1, 0.75]), springConfig);
   const glassOpacity = useTransform(scrollY, [0, 100], [0, 1]);
