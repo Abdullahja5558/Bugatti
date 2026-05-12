@@ -18,7 +18,6 @@ const SignatureReveal = () => {
     
         <div className="absolute inset-0 opacity-[0.03] bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
         
-        {/* The Constant Pulse */}
         <motion.div 
           animate={{ 
             opacity: [0.03, 0.08, 0.03],
