@@ -60,7 +60,6 @@ const Navbar = () => {
 
         <div className="w-full max-w-400 flex items-center justify-between md:grid md:grid-cols-[1fr_auto_1fr]">
           
-          {/* DESKTOP LEFT */}
           <div className="hidden md:flex items-center justify-start gap-x-8 lg:gap-x-12">
             {navLinks.filter(l => l.side === "left").map((link) => (
               <NavLink key={link.label} label={link.label} href={link.href} />
