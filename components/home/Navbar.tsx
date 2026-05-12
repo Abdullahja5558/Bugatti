@@ -42,7 +42,6 @@ const Navbar = () => {
         }}
         className="relative flex items-center justify-center px-6 md:px-12 transition-colors duration-500 overflow-hidden pointer-events-auto"
       >
-        {/* BACKGROUND MATERIAL */}
         <motion.div 
           style={{ 
             opacity: glassOpacity, 
