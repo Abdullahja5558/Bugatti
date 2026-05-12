@@ -53,7 +53,6 @@ const Navbar = () => {
         >
           <div className="absolute inset-0 bg-[#050505]/60 rounded-[inherit]" />
           
-          {/* Top Edge Shine (Automotive Luxury Look) */}
           <div className="absolute top-0 left-0 w-full h-px bg-linear-to-r from-transparent via-white/15 to-transparent" />
           
           <div className="absolute inset-0 opacity-[0.03] bg-[url('https://grainy-gradients.vercel.app/noise.svg')] rounded-[inherit]" />
