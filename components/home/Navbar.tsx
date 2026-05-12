@@ -9,8 +9,6 @@ const Navbar = () => {
   const { scrollY } = useScroll();
   
   const springConfig = { stiffness: 45, damping: 25, mass: 1.5 };
-  
-  // Dynamic Width aur Padding for Centering on Scroll
   const navWidth = useSpring(useTransform(scrollY, [0, 100], ["100%", "90%"]), springConfig);
   const navTop = useSpring(useTransform(scrollY, [0, 100], [0, 20]), springConfig);
   const borderRadius = useSpring(useTransform(scrollY, [0, 100], [0, 100]), springConfig);
