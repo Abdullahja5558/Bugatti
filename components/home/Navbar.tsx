@@ -80,7 +80,6 @@ const Navbar = () => {
             </div>
           </motion.div>
 
-          {/* DESKTOP RIGHT */}
           <div className="hidden md:flex items-center justify-end gap-x-8 lg:gap-x-12">
             {navLinks.filter(l => l.side === "right").map((link) => (
               <NavLink key={link.label} label={link.label} href={link.href} />
