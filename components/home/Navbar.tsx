@@ -18,7 +18,6 @@ const Navbar = () => {
   const glassOpacity = useTransform(scrollY, [0, 100], [0, 1]);
   const blurValue = useTransform(scrollY, [0, 100], [0, 20]);
 
-  // Premium Edge Effects on Scroll
   const edgeBorderOpacity = useTransform(scrollY, [0, 100], [0, 0.12]);
   const edgeShadowOpacity = useTransform(scrollY, [0, 100], [0, 0.4]);
 
