@@ -86,7 +86,6 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* MOBILE TOGGLE */}
           <button 
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden z-50 p-2 text-white/70 hover:text-white transition-colors"
