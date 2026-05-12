@@ -66,7 +66,6 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* LOGO */}
           <motion.div 
             style={{ scale: logoScale }}
             className="flex justify-center z-50"
