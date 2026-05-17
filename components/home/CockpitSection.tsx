@@ -42,7 +42,7 @@ const CockpitSection = () => {
           {/* 1. LAYER: OPTIMIZED ATMOSPHERE */}
           <div className="absolute inset-0 z-0 pointer-events-none">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_45%,rgba(255,255,255,0.04)_0%,transparent_75%)]" />
-            {/* Minimal Noise for texture without lag */}
+            
             <div className="absolute inset-0 opacity-[0.03] bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
           </div>
 
