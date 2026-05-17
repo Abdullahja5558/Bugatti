@@ -57,7 +57,7 @@ const CockpitSection = () => {
             </h2>
           </motion.div>
 
-          {/* 3. LAYER: THE CORE ASSET (Interior) */}
+        
           <motion.div 
             style={{ 
               opacity: interiorOpacity, 
