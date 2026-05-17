@@ -77,7 +77,7 @@ const CockpitSection = () => {
               loading="eager"
             />
             
-            {/* OPTICAL LIGHT SHIMMER (Hardware Accelerated) */}
+           
             <motion.div 
               style={{ x: useTransform(smoothProgress, [0, 1], ["-130%", "130%"]), translateZ: 0 }}
               className="absolute inset-0 z-30 pointer-events-none bg-linear-to-r from-transparent via-white/5 to-transparent skew-x-[-35deg] blur-[100px]"
