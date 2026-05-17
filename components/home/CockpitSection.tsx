@@ -46,7 +46,7 @@ const CockpitSection = () => {
             <div className="absolute inset-0 opacity-[0.03] bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
           </div>
 
-          {/* 2. LAYER: HERO TITLE (Fades out quickly to focus on image) */}
+         
           <motion.div 
             style={{ opacity: titleOpacity, scale: titleScale, translateZ: 0 }}
             className="absolute z-50 text-center will-change-transform"
