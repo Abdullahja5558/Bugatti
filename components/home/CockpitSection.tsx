@@ -84,7 +84,7 @@ const CockpitSection = () => {
             />
           </motion.div>
 
-          {/* 4. LAYER: RESPONSIVE HUD SPECS */}
+         
           <div className="absolute inset-0 z-40 pointer-events-none">
             <div className="relative w-full h-full max-w-300 mx-auto px-6">
               {specs.map((spec) => (
