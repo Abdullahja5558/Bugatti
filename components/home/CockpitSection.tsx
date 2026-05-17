@@ -93,7 +93,6 @@ const CockpitSection = () => {
             </div>
           </div>
 
-          {/* 5. FOOTER: SYSTEM STATUS */}
           <div className="absolute bottom-10 left-10 md:left-20 flex items-center gap-4 opacity-20">
              <div className="w-1 h-1 rounded-full bg-white animate-pulse" />
              <span className="text-[7px] tracking-[1em] text-white uppercase font-mono leading-none">System.Active // LVL-09</span>
