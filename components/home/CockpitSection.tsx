@@ -136,7 +136,7 @@ const PremiumSpec = ({ id, label, value, range, progress, pos }: any) => {
           {value}
         </h3>
         
-        {/* Responsive Detail Bar */}
+
         <div className="relative w-full h-[0.5px] bg-white/5 mt-5 overflow-hidden">
           <motion.div 
             style={{ scaleX: useTransform(progress, [range[0], range[1]], [0, 1]), translateZ: 0 }}
