@@ -122,7 +122,7 @@ const PremiumSpec = ({ id, label, value, range, progress, pos }: any) => {
       }}
       className="absolute flex items-start gap-5 w-60 md:w-95 will-change-[transform,opacity]"
     >
-      {/* Structural Marker */}
+    
       <div className="flex flex-col items-center pt-2">
         <span className="text-[10px] font-mono text-white/40 mb-3 leading-none tracking-tighter">{id}</span>
         <div className="w-[0.5px] h-14 bg-linear-to-b from-white/30 to-transparent" />
