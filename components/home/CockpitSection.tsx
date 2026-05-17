@@ -67,7 +67,7 @@ const CockpitSection = () => {
             }}
             className="relative z-10 w-full max-w-350 px-4 md:px-12 will-change-[transform,opacity,filter]"
           >
-            {/* Shadow Depth */}
+        
             <div className="absolute inset-0 z-20 bg-linear-to-b from-black via-transparent to-black opacity-50" />
             
             <img 
